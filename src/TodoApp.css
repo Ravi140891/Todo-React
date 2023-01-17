@@ -1,0 +1,84 @@
+/* .container{
+    border: 1px solid black;
+
+} */
+
+ul li{
+    list-style: none;
+}
+.task-update{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.completed{
+    background-color: green;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+}
+.pending{
+    background-color: crimson;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+form input{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    width: 300px;
+    outline: none;
+    border-radius: 10px;
+    color: coral;
+    font-size: larger;
+}
+form input::placeholder{
+    color: coral;
+}
+.task-container{
+    padding: 10px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.todo-task{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border: 1px solid crimson;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px rgb(194, 77, 77);
+    color: rgb(61, 17, 17);
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: coral;
+    font-size: larger;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.todo-task:hover{
+    box-shadow: 0 0 10px 5px rgb(194, 77, 77) , 0 0 8px 5px rgb(192, 143, 143);
+}
